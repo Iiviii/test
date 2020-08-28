@@ -1,0 +1,16 @@
+.header{
+    background-image: linear-gradient(to bottom right, rgb(253, 11, 213), rgb(37, 241, 248));
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    .header-ul{
+        @extend %d-flex;
+        justify-content: space-evenly;
+    }
+    .header-li a{
+        line-height: 70px;
+        padding: 10px;
+        color: $default-black;
+    }
+    
+}

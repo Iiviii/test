@@ -46,3 +46,47 @@ a {
 
 input {
   border: 0px; }
+
+.header .header-ul {
+  display: flex; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fcf3f3; }
+
+.header {
+  background-image: linear-gradient(to bottom right, #fd0bd5, #25f1f8);
+  height: 70px;
+  width: 100%;
+  position: fixed; }
+  .header .header-ul {
+    justify-content: space-evenly; }
+  .header .header-li a {
+    line-height: 70px;
+    padding: 10px;
+    color: #141212; }
+
+.bg {
+  background-color: #bfbaf0; }
+
+.container .section-container {
+  padding: 120px 30px; }
+  .container .section-container .article {
+    position: relative;
+    margin-bottom: 10px; }
+    .container .section-container .article .h1 {
+      margin-top: 25px;
+      font-size: 30px;
+      color: #612e9b; }
+    .container .section-container .article .p {
+      font-size: 18px;
+      padding: 15px; }
+    .container .section-container .article .a {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 10px;
+      color: #612e9b; }
+      .container .section-container .article .a:hover {
+        font-size: 20px; }

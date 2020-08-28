@@ -1,0 +1,33 @@
+.bg{
+    background-color: $default-color;
+}
+.container{
+    .section-container{
+        padding: 120px 30px;
+        .article{
+            position: relative;
+            margin-bottom: 10px;
+            .h1{
+                margin-top: 25px;
+                font-size: 30px;
+                color: $default-blue;
+            }
+            .p{
+                font-size: 18px; 
+                padding: 15px;
+            }
+            .a{
+                position: absolute;
+                right:0;
+                bottom: 0;
+                padding: 10px;
+                color: $default-blue;
+                &:hover{
+                    font-size: 20px;
+                }
+            }
+
+        }
+        
+    }
+}
